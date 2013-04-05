@@ -40,7 +40,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/endeavoru" name="IceColdJelly42/android_device_htc_endeavoru" remote="gh" revision="jb-mr1-rootbox" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -350,7 +350,8 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/htc" name="IceColdJelly42/vendor_htc" remote="gh" revision="jb-mr1" />
+  <project path="vendor/rootbox" name="IceColdBox/vendor_rootbox" remote="gh" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
