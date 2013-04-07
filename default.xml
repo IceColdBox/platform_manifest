@@ -253,7 +253,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="rootbox" revision="jb-mr1" />
-  <project path="packages/apps/Camera" name="IceColdBox/packages_apps_Camera" remote="gh" revision="jb-mr1" />
+  <project path="packages/apps/Camera" name="IceColdJelly42/android_packages_apps_Camera" remote="gh" revision="jb-mr1-maxwen" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rootbox" revision="jb-mr1" />
