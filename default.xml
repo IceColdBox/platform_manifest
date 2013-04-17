@@ -19,6 +19,9 @@
   <remote  name="bajee"
 	   fetch="https://github.com/Bajee11/" />
 
+  <remote  name="xy"
+           fetch="https://github.com/XYAOSP/" /> 
+
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
@@ -65,7 +68,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="xy" revision="jellybean" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
@@ -342,7 +345,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.1" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" /> 
   <project path="system/core" name="android_system_core" remote="rootbox" revision="jb-mr1" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.1" />
   <project path="system/media" name="platform/system/media" />
